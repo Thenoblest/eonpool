@@ -142,6 +142,11 @@ h6,
     background: var(--primary) !important;
 }
 
+.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
 
 /*** Header ***/
 .hero-header .breadcrumb-item+.breadcrumb-item::before {
