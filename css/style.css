@@ -1,9 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #16D5FF;
+    --primary: #1a72ad;
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
+	--text-color: #000000;  /* Add this line for the new text color */
 }
 
 .back-to-top {
@@ -12,6 +13,10 @@
     right: 30px;
     bottom: 60px;
     z-index: 99;
+}
+
+body, p, span, h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
 }
 
 h4,
